@@ -34,6 +34,11 @@ int main()
     fillArray(array1, size1);
     fillArray(array2, size2);
     sumArrays(size1, array1, array2, array3, size2);
+    cout << "Result: " << endl;
+    for (int i = 0; i < size1 + size2; ++i)
+    {
+        cout << array3[i];
+    }
     delete[]array1;
     delete[]array2;
     return 0;
