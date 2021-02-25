@@ -169,6 +169,87 @@ First_week_H/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/First_week_H/main.cpp.s
 .PHONY : First_week_H/main.cpp.s
 
+SecondWeekHW/FirstTask.obj: SecondWeekHW/FirstTask.cpp.obj
+
+.PHONY : SecondWeekHW/FirstTask.obj
+
+# target to build an object file
+SecondWeekHW/FirstTask.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/SecondWeekHW/FirstTask.cpp.obj
+.PHONY : SecondWeekHW/FirstTask.cpp.obj
+
+SecondWeekHW/FirstTask.i: SecondWeekHW/FirstTask.cpp.i
+
+.PHONY : SecondWeekHW/FirstTask.i
+
+# target to preprocess a source file
+SecondWeekHW/FirstTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/SecondWeekHW/FirstTask.cpp.i
+.PHONY : SecondWeekHW/FirstTask.cpp.i
+
+SecondWeekHW/FirstTask.s: SecondWeekHW/FirstTask.cpp.s
+
+.PHONY : SecondWeekHW/FirstTask.s
+
+# target to generate assembly for a file
+SecondWeekHW/FirstTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/SecondWeekHW/FirstTask.cpp.s
+.PHONY : SecondWeekHW/FirstTask.cpp.s
+
+SecondWeekHW/SecondTask.obj: SecondWeekHW/SecondTask.cpp.obj
+
+.PHONY : SecondWeekHW/SecondTask.obj
+
+# target to build an object file
+SecondWeekHW/SecondTask.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/SecondWeekHW/SecondTask.cpp.obj
+.PHONY : SecondWeekHW/SecondTask.cpp.obj
+
+SecondWeekHW/SecondTask.i: SecondWeekHW/SecondTask.cpp.i
+
+.PHONY : SecondWeekHW/SecondTask.i
+
+# target to preprocess a source file
+SecondWeekHW/SecondTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/SecondWeekHW/SecondTask.cpp.i
+.PHONY : SecondWeekHW/SecondTask.cpp.i
+
+SecondWeekHW/SecondTask.s: SecondWeekHW/SecondTask.cpp.s
+
+.PHONY : SecondWeekHW/SecondTask.s
+
+# target to generate assembly for a file
+SecondWeekHW/SecondTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/SecondWeekHW/SecondTask.cpp.s
+.PHONY : SecondWeekHW/SecondTask.cpp.s
+
+SecondWeekHW/ThirdTask.obj: SecondWeekHW/ThirdTask.cpp.obj
+
+.PHONY : SecondWeekHW/ThirdTask.obj
+
+# target to build an object file
+SecondWeekHW/ThirdTask.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/SecondWeekHW/ThirdTask.cpp.obj
+.PHONY : SecondWeekHW/ThirdTask.cpp.obj
+
+SecondWeekHW/ThirdTask.i: SecondWeekHW/ThirdTask.cpp.i
+
+.PHONY : SecondWeekHW/ThirdTask.i
+
+# target to preprocess a source file
+SecondWeekHW/ThirdTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/SecondWeekHW/ThirdTask.cpp.i
+.PHONY : SecondWeekHW/ThirdTask.cpp.i
+
+SecondWeekHW/ThirdTask.s: SecondWeekHW/ThirdTask.cpp.s
+
+.PHONY : SecondWeekHW/ThirdTask.s
+
+# target to generate assembly for a file
+SecondWeekHW/ThirdTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/SecondWeekHW/ThirdTask.cpp.s
+.PHONY : SecondWeekHW/ThirdTask.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -181,6 +262,15 @@ help:
 	@echo ... First_week_H/main.obj
 	@echo ... First_week_H/main.i
 	@echo ... First_week_H/main.s
+	@echo ... SecondWeekHW/FirstTask.obj
+	@echo ... SecondWeekHW/FirstTask.i
+	@echo ... SecondWeekHW/FirstTask.s
+	@echo ... SecondWeekHW/SecondTask.obj
+	@echo ... SecondWeekHW/SecondTask.i
+	@echo ... SecondWeekHW/SecondTask.s
+	@echo ... SecondWeekHW/ThirdTask.obj
+	@echo ... SecondWeekHW/ThirdTask.i
+	@echo ... SecondWeekHW/ThirdTask.s
 .PHONY : help
 
 

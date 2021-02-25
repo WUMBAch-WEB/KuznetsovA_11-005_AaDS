@@ -83,6 +83,15 @@
 		<Unit filename="C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/First week H/main.cpp">
 			<Option target="untitled"/>
 		</Unit>
+		<Unit filename="C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/SecondWeekHW/FirstTask.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/SecondWeekHW/SecondTask.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/SecondWeekHW/ThirdTask.cpp">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="C:/Users/WUMBAch/CLionProjects/untitled/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

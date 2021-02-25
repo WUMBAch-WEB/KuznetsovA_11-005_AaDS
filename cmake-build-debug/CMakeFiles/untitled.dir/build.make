@@ -89,19 +89,64 @@ CMakeFiles/untitled.dir/First_week_H/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/First_week_H/main.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-W\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\First week H\main.cpp" -o CMakeFiles\untitled.dir\First_week_H\main.cpp.s
 
+CMakeFiles/untitled.dir/SecondWeekHW/FirstTask.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/SecondWeekHW/FirstTask.cpp.obj: SecondWeekHW/FirstTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/SecondWeekHW/FirstTask.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-W\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\SecondWeekHW\FirstTask.cpp.obj -c C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\SecondWeekHW\FirstTask.cpp
+
+CMakeFiles/untitled.dir/SecondWeekHW/FirstTask.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/SecondWeekHW/FirstTask.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-W\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\SecondWeekHW\FirstTask.cpp > CMakeFiles\untitled.dir\SecondWeekHW\FirstTask.cpp.i
+
+CMakeFiles/untitled.dir/SecondWeekHW/FirstTask.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/SecondWeekHW/FirstTask.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-W\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\SecondWeekHW\FirstTask.cpp -o CMakeFiles\untitled.dir\SecondWeekHW\FirstTask.cpp.s
+
+CMakeFiles/untitled.dir/SecondWeekHW/SecondTask.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/SecondWeekHW/SecondTask.cpp.obj: SecondWeekHW/SecondTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/SecondWeekHW/SecondTask.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-W\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\SecondWeekHW\SecondTask.cpp.obj -c C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\SecondWeekHW\SecondTask.cpp
+
+CMakeFiles/untitled.dir/SecondWeekHW/SecondTask.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/SecondWeekHW/SecondTask.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-W\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\SecondWeekHW\SecondTask.cpp > CMakeFiles\untitled.dir\SecondWeekHW\SecondTask.cpp.i
+
+CMakeFiles/untitled.dir/SecondWeekHW/SecondTask.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/SecondWeekHW/SecondTask.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-W\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\SecondWeekHW\SecondTask.cpp -o CMakeFiles\untitled.dir\SecondWeekHW\SecondTask.cpp.s
+
+CMakeFiles/untitled.dir/SecondWeekHW/ThirdTask.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/SecondWeekHW/ThirdTask.cpp.obj: SecondWeekHW/ThirdTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/SecondWeekHW/ThirdTask.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-W\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\SecondWeekHW\ThirdTask.cpp.obj -c C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\SecondWeekHW\ThirdTask.cpp
+
+CMakeFiles/untitled.dir/SecondWeekHW/ThirdTask.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/SecondWeekHW/ThirdTask.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-W\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\SecondWeekHW\ThirdTask.cpp > CMakeFiles\untitled.dir\SecondWeekHW\ThirdTask.cpp.i
+
+CMakeFiles/untitled.dir/SecondWeekHW/ThirdTask.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/SecondWeekHW/ThirdTask.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-W\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\SecondWeekHW\ThirdTask.cpp -o CMakeFiles\untitled.dir\SecondWeekHW\ThirdTask.cpp.s
+
 # Object files for target untitled
 untitled_OBJECTS = \
-"CMakeFiles/untitled.dir/First_week_H/main.cpp.obj"
+"CMakeFiles/untitled.dir/First_week_H/main.cpp.obj" \
+"CMakeFiles/untitled.dir/SecondWeekHW/FirstTask.cpp.obj" \
+"CMakeFiles/untitled.dir/SecondWeekHW/SecondTask.cpp.obj" \
+"CMakeFiles/untitled.dir/SecondWeekHW/ThirdTask.cpp.obj"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
 untitled.exe: CMakeFiles/untitled.dir/First_week_H/main.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/SecondWeekHW/FirstTask.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/SecondWeekHW/SecondTask.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/SecondWeekHW/ThirdTask.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/build.make
 untitled.exe: CMakeFiles/untitled.dir/linklibs.rsp
 untitled.exe: CMakeFiles/untitled.dir/objects1.rsp
 untitled.exe: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable untitled.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable untitled.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

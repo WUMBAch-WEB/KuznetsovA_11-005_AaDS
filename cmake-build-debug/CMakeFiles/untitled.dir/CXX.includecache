@@ -6,9 +6,5 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/WUMBAch/CLionProjects/untitled/main.cpp
-iostream
--
-cmath
-C:/Users/WUMBAch/CLionProjects/untitled/cmath
+C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/SecondWeekHW/SecondTask.cpp
 

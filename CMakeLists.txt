@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(untitled "cmake-build-debug/First week H/main.cpp")
+add_executable(untitled "cmake-build-debug/First week H/main.cpp" cmake-build-debug/SecondWeekHW/FirstTask.cpp cmake-build-debug/SecondWeekHW/SecondTask.cpp cmake-build-debug/SecondWeekHW/ThirdTask.cpp)
