@@ -27,6 +27,7 @@ int main()
     int array[size];
     fillArray(array, size);
     int *pointer = &array[0];
+    cout << "Result: " << endl;
     cout << sum(pointer, size);
     return 0;
 }
