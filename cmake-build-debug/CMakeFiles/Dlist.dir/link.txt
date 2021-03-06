@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Dlist.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-W\mingw32\bin\ar.exe cr CMakeFiles\Dlist.dir/objects.a @CMakeFiles\Dlist.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-W\mingw32\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\Dlist.dir/objects.a -Wl,--no-whole-archive  -o Dlist.exe -Wl,--out-implib,libDlist.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Dlist.dir\linklibs.rsp

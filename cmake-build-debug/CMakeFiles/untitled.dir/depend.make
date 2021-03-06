@@ -7,3 +7,5 @@ CMakeFiles/untitled.dir/SecondWeekHW/FirstTask.cpp.obj: SecondWeekHW/FirstTask.c
 
 CMakeFiles/untitled.dir/SecondWeekHW/SecondTask.cpp.obj: SecondWeekHW/SecondTask.cpp
 
+CMakeFiles/untitled.dir/SecondWeekHW/ThirdTask.cpp.obj: SecondWeekHW/ThirdTask.cpp
+

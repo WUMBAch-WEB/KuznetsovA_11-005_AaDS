@@ -1,29 +1,27 @@
+
 //
 // Created by WUMBAch on 25.02.2021.
 //
 #include <iostream>
+
 using namespace std;
-void fillArray(int *array, int size)
-{
-    for (int *p = array; p < array + size; ++p)
-    {
+
+void fillArray(int *array, int size) {
+    for (int *p = array; p < array + size; ++p) {
         cin >> *p;
     }
 }
 
-void sumArrays(int size1, int *p1, int *p2, int *p3, int size2)
-{
-    for (int i = 0; i < size1; ++i)
-    {
-        *(p3 + i)  = *(p1 + i);
+void sumArrays(int size1, int *p1, int *p2, int *p3, int size2) {
+    for (int i = 0; i < size1; ++i) {
+        *(p3 + i) = *(p1 + i);
     }
-    for (int i = 0; i < size2 ; ++i) {
+    for (int i = 0; i < size2; ++i) {
         *(p3 + i + size1) = *(p2 + i);
     }
 }
 
-int main()
-{
+int main() {
     int size1;
     int size2;
     cout << "Enter size of array1 and array2: " << endl;

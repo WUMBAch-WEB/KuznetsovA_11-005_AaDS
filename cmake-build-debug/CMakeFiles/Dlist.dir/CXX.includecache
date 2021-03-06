@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/HomeWork_10.03/DoubleLinkedList.cpp
+iostream
+-
+

@@ -130,6 +130,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Queue
+
+# Build rule for target.
+Queue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Queue
+.PHONY : Queue
+
+# fast build rule for target.
+Queue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/build
+.PHONY : Queue/fast
+
+#=============================================================================
+# Target rules for targets named firstTask
+
+# Build rule for target.
+firstTask: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 firstTask
+.PHONY : firstTask
+
+# fast build rule for target.
+firstTask/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\firstTask.dir\build.make CMakeFiles/firstTask.dir/build
+.PHONY : firstTask/fast
+
+#=============================================================================
+# Target rules for targets named DoubleList
+
+# Build rule for target.
+DoubleList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DoubleList
+.PHONY : DoubleList
+
+# fast build rule for target.
+DoubleList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleList.dir\build.make CMakeFiles/DoubleList.dir/build
+.PHONY : DoubleList/fast
+
+#=============================================================================
 # Target rules for targets named untitled
 
 # Build rule for target.
@@ -141,6 +180,58 @@ untitled: cmake_check_build_system
 untitled/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
+
+#=============================================================================
+# Target rules for targets named secondTask
+
+# Build rule for target.
+secondTask: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 secondTask
+.PHONY : secondTask
+
+# fast build rule for target.
+secondTask/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\secondTask.dir\build.make CMakeFiles/secondTask.dir/build
+.PHONY : secondTask/fast
+
+#=============================================================================
+# Target rules for targets named thirdTask
+
+# Build rule for target.
+thirdTask: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 thirdTask
+.PHONY : thirdTask
+
+# fast build rule for target.
+thirdTask/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\thirdTask.dir\build.make CMakeFiles/thirdTask.dir/build
+.PHONY : thirdTask/fast
+
+#=============================================================================
+# Target rules for targets named stack
+
+# Build rule for target.
+stack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stack
+.PHONY : stack
+
+# fast build rule for target.
+stack/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/build
+.PHONY : stack/fast
+
+#=============================================================================
+# Target rules for targets named list
+
+# Build rule for target.
+list: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 list
+.PHONY : list
+
+# fast build rule for target.
+list/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/build
+.PHONY : list/fast
 
 First_week_H/main.obj: First_week_H/main.cpp.obj
 
@@ -169,13 +260,67 @@ First_week_H/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/First_week_H/main.cpp.s
 .PHONY : First_week_H/main.cpp.s
 
+HomeWork_10.03/DoubleLinkedList.obj: HomeWork_10.03/DoubleLinkedList.cpp.obj
+
+.PHONY : HomeWork_10.03/DoubleLinkedList.obj
+
+# target to build an object file
+HomeWork_10.03/DoubleLinkedList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleList.dir\build.make CMakeFiles/DoubleList.dir/HomeWork_10.03/DoubleLinkedList.cpp.obj
+.PHONY : HomeWork_10.03/DoubleLinkedList.cpp.obj
+
+HomeWork_10.03/DoubleLinkedList.i: HomeWork_10.03/DoubleLinkedList.cpp.i
+
+.PHONY : HomeWork_10.03/DoubleLinkedList.i
+
+# target to preprocess a source file
+HomeWork_10.03/DoubleLinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleList.dir\build.make CMakeFiles/DoubleList.dir/HomeWork_10.03/DoubleLinkedList.cpp.i
+.PHONY : HomeWork_10.03/DoubleLinkedList.cpp.i
+
+HomeWork_10.03/DoubleLinkedList.s: HomeWork_10.03/DoubleLinkedList.cpp.s
+
+.PHONY : HomeWork_10.03/DoubleLinkedList.s
+
+# target to generate assembly for a file
+HomeWork_10.03/DoubleLinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleList.dir\build.make CMakeFiles/DoubleList.dir/HomeWork_10.03/DoubleLinkedList.cpp.s
+.PHONY : HomeWork_10.03/DoubleLinkedList.cpp.s
+
+HomeWork_10.03/Queue.obj: HomeWork_10.03/Queue.cpp.obj
+
+.PHONY : HomeWork_10.03/Queue.obj
+
+# target to build an object file
+HomeWork_10.03/Queue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/HomeWork_10.03/Queue.cpp.obj
+.PHONY : HomeWork_10.03/Queue.cpp.obj
+
+HomeWork_10.03/Queue.i: HomeWork_10.03/Queue.cpp.i
+
+.PHONY : HomeWork_10.03/Queue.i
+
+# target to preprocess a source file
+HomeWork_10.03/Queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/HomeWork_10.03/Queue.cpp.i
+.PHONY : HomeWork_10.03/Queue.cpp.i
+
+HomeWork_10.03/Queue.s: HomeWork_10.03/Queue.cpp.s
+
+.PHONY : HomeWork_10.03/Queue.s
+
+# target to generate assembly for a file
+HomeWork_10.03/Queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/HomeWork_10.03/Queue.cpp.s
+.PHONY : HomeWork_10.03/Queue.cpp.s
+
 SecondWeekHW/FirstTask.obj: SecondWeekHW/FirstTask.cpp.obj
 
 .PHONY : SecondWeekHW/FirstTask.obj
 
 # target to build an object file
 SecondWeekHW/FirstTask.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/SecondWeekHW/FirstTask.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\firstTask.dir\build.make CMakeFiles/firstTask.dir/SecondWeekHW/FirstTask.cpp.obj
 .PHONY : SecondWeekHW/FirstTask.cpp.obj
 
 SecondWeekHW/FirstTask.i: SecondWeekHW/FirstTask.cpp.i
@@ -184,7 +329,7 @@ SecondWeekHW/FirstTask.i: SecondWeekHW/FirstTask.cpp.i
 
 # target to preprocess a source file
 SecondWeekHW/FirstTask.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/SecondWeekHW/FirstTask.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\firstTask.dir\build.make CMakeFiles/firstTask.dir/SecondWeekHW/FirstTask.cpp.i
 .PHONY : SecondWeekHW/FirstTask.cpp.i
 
 SecondWeekHW/FirstTask.s: SecondWeekHW/FirstTask.cpp.s
@@ -193,7 +338,7 @@ SecondWeekHW/FirstTask.s: SecondWeekHW/FirstTask.cpp.s
 
 # target to generate assembly for a file
 SecondWeekHW/FirstTask.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/SecondWeekHW/FirstTask.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\firstTask.dir\build.make CMakeFiles/firstTask.dir/SecondWeekHW/FirstTask.cpp.s
 .PHONY : SecondWeekHW/FirstTask.cpp.s
 
 SecondWeekHW/SecondTask.obj: SecondWeekHW/SecondTask.cpp.obj
@@ -202,7 +347,7 @@ SecondWeekHW/SecondTask.obj: SecondWeekHW/SecondTask.cpp.obj
 
 # target to build an object file
 SecondWeekHW/SecondTask.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/SecondWeekHW/SecondTask.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\secondTask.dir\build.make CMakeFiles/secondTask.dir/SecondWeekHW/SecondTask.cpp.obj
 .PHONY : SecondWeekHW/SecondTask.cpp.obj
 
 SecondWeekHW/SecondTask.i: SecondWeekHW/SecondTask.cpp.i
@@ -211,7 +356,7 @@ SecondWeekHW/SecondTask.i: SecondWeekHW/SecondTask.cpp.i
 
 # target to preprocess a source file
 SecondWeekHW/SecondTask.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/SecondWeekHW/SecondTask.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\secondTask.dir\build.make CMakeFiles/secondTask.dir/SecondWeekHW/SecondTask.cpp.i
 .PHONY : SecondWeekHW/SecondTask.cpp.i
 
 SecondWeekHW/SecondTask.s: SecondWeekHW/SecondTask.cpp.s
@@ -220,7 +365,7 @@ SecondWeekHW/SecondTask.s: SecondWeekHW/SecondTask.cpp.s
 
 # target to generate assembly for a file
 SecondWeekHW/SecondTask.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/SecondWeekHW/SecondTask.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\secondTask.dir\build.make CMakeFiles/secondTask.dir/SecondWeekHW/SecondTask.cpp.s
 .PHONY : SecondWeekHW/SecondTask.cpp.s
 
 SecondWeekHW/ThirdTask.obj: SecondWeekHW/ThirdTask.cpp.obj
@@ -229,7 +374,7 @@ SecondWeekHW/ThirdTask.obj: SecondWeekHW/ThirdTask.cpp.obj
 
 # target to build an object file
 SecondWeekHW/ThirdTask.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/SecondWeekHW/ThirdTask.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\thirdTask.dir\build.make CMakeFiles/thirdTask.dir/SecondWeekHW/ThirdTask.cpp.obj
 .PHONY : SecondWeekHW/ThirdTask.cpp.obj
 
 SecondWeekHW/ThirdTask.i: SecondWeekHW/ThirdTask.cpp.i
@@ -238,7 +383,7 @@ SecondWeekHW/ThirdTask.i: SecondWeekHW/ThirdTask.cpp.i
 
 # target to preprocess a source file
 SecondWeekHW/ThirdTask.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/SecondWeekHW/ThirdTask.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\thirdTask.dir\build.make CMakeFiles/thirdTask.dir/SecondWeekHW/ThirdTask.cpp.i
 .PHONY : SecondWeekHW/ThirdTask.cpp.i
 
 SecondWeekHW/ThirdTask.s: SecondWeekHW/ThirdTask.cpp.s
@@ -247,8 +392,62 @@ SecondWeekHW/ThirdTask.s: SecondWeekHW/ThirdTask.cpp.s
 
 # target to generate assembly for a file
 SecondWeekHW/ThirdTask.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/SecondWeekHW/ThirdTask.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\thirdTask.dir\build.make CMakeFiles/thirdTask.dir/SecondWeekHW/ThirdTask.cpp.s
 .PHONY : SecondWeekHW/ThirdTask.cpp.s
+
+ThirdWeek/LinkedList.obj: ThirdWeek/LinkedList.cpp.obj
+
+.PHONY : ThirdWeek/LinkedList.obj
+
+# target to build an object file
+ThirdWeek/LinkedList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/ThirdWeek/LinkedList.cpp.obj
+.PHONY : ThirdWeek/LinkedList.cpp.obj
+
+ThirdWeek/LinkedList.i: ThirdWeek/LinkedList.cpp.i
+
+.PHONY : ThirdWeek/LinkedList.i
+
+# target to preprocess a source file
+ThirdWeek/LinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/ThirdWeek/LinkedList.cpp.i
+.PHONY : ThirdWeek/LinkedList.cpp.i
+
+ThirdWeek/LinkedList.s: ThirdWeek/LinkedList.cpp.s
+
+.PHONY : ThirdWeek/LinkedList.s
+
+# target to generate assembly for a file
+ThirdWeek/LinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/ThirdWeek/LinkedList.cpp.s
+.PHONY : ThirdWeek/LinkedList.cpp.s
+
+ThirdWeek/Stack.obj: ThirdWeek/Stack.cpp.obj
+
+.PHONY : ThirdWeek/Stack.obj
+
+# target to build an object file
+ThirdWeek/Stack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/ThirdWeek/Stack.cpp.obj
+.PHONY : ThirdWeek/Stack.cpp.obj
+
+ThirdWeek/Stack.i: ThirdWeek/Stack.cpp.i
+
+.PHONY : ThirdWeek/Stack.i
+
+# target to preprocess a source file
+ThirdWeek/Stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/ThirdWeek/Stack.cpp.i
+.PHONY : ThirdWeek/Stack.cpp.i
+
+ThirdWeek/Stack.s: ThirdWeek/Stack.cpp.s
+
+.PHONY : ThirdWeek/Stack.s
+
+# target to generate assembly for a file
+ThirdWeek/Stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/ThirdWeek/Stack.cpp.s
+.PHONY : ThirdWeek/Stack.cpp.s
 
 # Help Target
 help:
@@ -258,10 +457,23 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... DoubleList
+	@echo ... Queue
+	@echo ... firstTask
+	@echo ... list
+	@echo ... secondTask
+	@echo ... stack
+	@echo ... thirdTask
 	@echo ... untitled
 	@echo ... First_week_H/main.obj
 	@echo ... First_week_H/main.i
 	@echo ... First_week_H/main.s
+	@echo ... HomeWork_10.03/DoubleLinkedList.obj
+	@echo ... HomeWork_10.03/DoubleLinkedList.i
+	@echo ... HomeWork_10.03/DoubleLinkedList.s
+	@echo ... HomeWork_10.03/Queue.obj
+	@echo ... HomeWork_10.03/Queue.i
+	@echo ... HomeWork_10.03/Queue.s
 	@echo ... SecondWeekHW/FirstTask.obj
 	@echo ... SecondWeekHW/FirstTask.i
 	@echo ... SecondWeekHW/FirstTask.s
@@ -271,6 +483,12 @@ help:
 	@echo ... SecondWeekHW/ThirdTask.obj
 	@echo ... SecondWeekHW/ThirdTask.i
 	@echo ... SecondWeekHW/ThirdTask.s
+	@echo ... ThirdWeek/LinkedList.obj
+	@echo ... ThirdWeek/LinkedList.i
+	@echo ... ThirdWeek/LinkedList.s
+	@echo ... ThirdWeek/Stack.obj
+	@echo ... ThirdWeek/Stack.i
+	@echo ... ThirdWeek/Stack.s
 .PHONY : help
 
 

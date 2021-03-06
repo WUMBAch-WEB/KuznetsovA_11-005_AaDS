@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include "cmath"
 
@@ -97,4 +98,5 @@ int main() {
             main();
             break;
     }
+    return 0;
 }

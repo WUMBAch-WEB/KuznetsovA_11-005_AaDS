@@ -6,5 +6,17 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/First week H/main.cpp
+iostream
+-
+cmath
+C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/First week H/cmath
+
 C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/SecondWeekHW/SecondTask.cpp
+iostream
+-
+
+C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/SecondWeekHW/ThirdTask.cpp
+iostream
+-
 
