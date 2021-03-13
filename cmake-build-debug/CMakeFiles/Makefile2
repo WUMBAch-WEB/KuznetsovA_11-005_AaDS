@@ -72,14 +72,7 @@ CMAKE_BINARY_DIR = C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Queue.dir/all
-all: CMakeFiles/firstTask.dir/all
-all: CMakeFiles/DoubleList.dir/all
-all: CMakeFiles/untitled.dir/all
-all: CMakeFiles/secondTask.dir/all
-all: CMakeFiles/thirdTask.dir/all
-all: CMakeFiles/stack.dir/all
-all: CMakeFiles/list.dir/all
+all: CMakeFiles/SortedList.dir/all
 
 .PHONY : all
 
@@ -89,232 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Queue.dir/clean
-clean: CMakeFiles/firstTask.dir/clean
-clean: CMakeFiles/DoubleList.dir/clean
-clean: CMakeFiles/untitled.dir/clean
-clean: CMakeFiles/secondTask.dir/clean
-clean: CMakeFiles/thirdTask.dir/clean
-clean: CMakeFiles/stack.dir/clean
-clean: CMakeFiles/list.dir/clean
+clean: CMakeFiles/SortedList.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Queue.dir
+# Target rules for target CMakeFiles/SortedList.dir
 
 # All Build rule for target.
-CMakeFiles/Queue.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Queue"
-.PHONY : CMakeFiles/Queue.dir/all
+CMakeFiles/SortedList.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedList.dir\build.make CMakeFiles/SortedList.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedList.dir\build.make CMakeFiles/SortedList.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target SortedList"
+.PHONY : CMakeFiles/SortedList.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Queue.dir/rule: cmake_check_build_system
+CMakeFiles/SortedList.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Queue.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/SortedList.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Queue.dir/rule
+.PHONY : CMakeFiles/SortedList.dir/rule
 
 # Convenience name for target.
-Queue: CMakeFiles/Queue.dir/rule
+SortedList: CMakeFiles/SortedList.dir/rule
 
-.PHONY : Queue
-
-# clean rule for target.
-CMakeFiles/Queue.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make CMakeFiles/Queue.dir/clean
-.PHONY : CMakeFiles/Queue.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/firstTask.dir
-
-# All Build rule for target.
-CMakeFiles/firstTask.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\firstTask.dir\build.make CMakeFiles/firstTask.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\firstTask.dir\build.make CMakeFiles/firstTask.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target firstTask"
-.PHONY : CMakeFiles/firstTask.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/firstTask.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/firstTask.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/firstTask.dir/rule
-
-# Convenience name for target.
-firstTask: CMakeFiles/firstTask.dir/rule
-
-.PHONY : firstTask
+.PHONY : SortedList
 
 # clean rule for target.
-CMakeFiles/firstTask.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\firstTask.dir\build.make CMakeFiles/firstTask.dir/clean
-.PHONY : CMakeFiles/firstTask.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/DoubleList.dir
-
-# All Build rule for target.
-CMakeFiles/DoubleList.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleList.dir\build.make CMakeFiles/DoubleList.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleList.dir\build.make CMakeFiles/DoubleList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target DoubleList"
-.PHONY : CMakeFiles/DoubleList.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/DoubleList.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/DoubleList.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/DoubleList.dir/rule
-
-# Convenience name for target.
-DoubleList: CMakeFiles/DoubleList.dir/rule
-
-.PHONY : DoubleList
-
-# clean rule for target.
-CMakeFiles/DoubleList.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleList.dir\build.make CMakeFiles/DoubleList.dir/clean
-.PHONY : CMakeFiles/DoubleList.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/untitled.dir
-
-# All Build rule for target.
-CMakeFiles/untitled.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target untitled"
-.PHONY : CMakeFiles/untitled.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/untitled.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/untitled.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/untitled.dir/rule
-
-# Convenience name for target.
-untitled: CMakeFiles/untitled.dir/rule
-
-.PHONY : untitled
-
-# clean rule for target.
-CMakeFiles/untitled.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/clean
-.PHONY : CMakeFiles/untitled.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/secondTask.dir
-
-# All Build rule for target.
-CMakeFiles/secondTask.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\secondTask.dir\build.make CMakeFiles/secondTask.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\secondTask.dir\build.make CMakeFiles/secondTask.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target secondTask"
-.PHONY : CMakeFiles/secondTask.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/secondTask.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/secondTask.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/secondTask.dir/rule
-
-# Convenience name for target.
-secondTask: CMakeFiles/secondTask.dir/rule
-
-.PHONY : secondTask
-
-# clean rule for target.
-CMakeFiles/secondTask.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\secondTask.dir\build.make CMakeFiles/secondTask.dir/clean
-.PHONY : CMakeFiles/secondTask.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/thirdTask.dir
-
-# All Build rule for target.
-CMakeFiles/thirdTask.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\thirdTask.dir\build.make CMakeFiles/thirdTask.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\thirdTask.dir\build.make CMakeFiles/thirdTask.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target thirdTask"
-.PHONY : CMakeFiles/thirdTask.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/thirdTask.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/thirdTask.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/thirdTask.dir/rule
-
-# Convenience name for target.
-thirdTask: CMakeFiles/thirdTask.dir/rule
-
-.PHONY : thirdTask
-
-# clean rule for target.
-CMakeFiles/thirdTask.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\thirdTask.dir\build.make CMakeFiles/thirdTask.dir/clean
-.PHONY : CMakeFiles/thirdTask.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/stack.dir
-
-# All Build rule for target.
-CMakeFiles/stack.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target stack"
-.PHONY : CMakeFiles/stack.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/stack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/stack.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/stack.dir/rule
-
-# Convenience name for target.
-stack: CMakeFiles/stack.dir/rule
-
-.PHONY : stack
-
-# clean rule for target.
-CMakeFiles/stack.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/clean
-.PHONY : CMakeFiles/stack.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/list.dir
-
-# All Build rule for target.
-CMakeFiles/list.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target list"
-.PHONY : CMakeFiles/list.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/list.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/list.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/list.dir/rule
-
-# Convenience name for target.
-list: CMakeFiles/list.dir/rule
-
-.PHONY : list
-
-# clean rule for target.
-CMakeFiles/list.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/clean
-.PHONY : CMakeFiles/list.dir/clean
+CMakeFiles/SortedList.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedList.dir\build.make CMakeFiles/SortedList.dir/clean
+.PHONY : CMakeFiles/SortedList.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

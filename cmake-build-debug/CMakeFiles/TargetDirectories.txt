@@ -1,10 +1,3 @@
-C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/CMakeFiles/Queue.dir
-C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/CMakeFiles/firstTask.dir
-C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/CMakeFiles/DoubleList.dir
-C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir
-C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/CMakeFiles/secondTask.dir
-C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/CMakeFiles/thirdTask.dir
-C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/CMakeFiles/stack.dir
-C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/CMakeFiles/list.dir
 C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/CMakeFiles/SortedList.dir
 C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir

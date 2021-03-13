@@ -53,12 +53,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Queue.dir/DependInfo.cmake"
-  "CMakeFiles/firstTask.dir/DependInfo.cmake"
-  "CMakeFiles/DoubleList.dir/DependInfo.cmake"
-  "CMakeFiles/untitled.dir/DependInfo.cmake"
-  "CMakeFiles/secondTask.dir/DependInfo.cmake"
-  "CMakeFiles/thirdTask.dir/DependInfo.cmake"
-  "CMakeFiles/stack.dir/DependInfo.cmake"
-  "CMakeFiles/list.dir/DependInfo.cmake"
+  "CMakeFiles/SortedList.dir/DependInfo.cmake"
   )
