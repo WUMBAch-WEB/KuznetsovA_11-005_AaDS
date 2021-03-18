@@ -44,19 +44,19 @@ struct MaxHeap
     void SiftDown(int i)
     {
         int maxIndex = i;
-        if (array[LeftChild(i)] > array[i])
+        if (array[LeftChild(i)] > array[i] &&  LeftChild(i) < size)
         {
             maxIndex = LeftChild(i);
         }
-        if (array[RightChild(i)] > array[i])
+        if (array[RightChild(i)] > array[i] && RightChild(i) < size)
         {
             maxIndex = RightChild(i);
         }
         if (maxIndex != i)
         {
-            int t = array[maxIndex];
-            array[maxIndex] = array[i];
-            array[i] = t;
+            int t = array[i];
+            array[i] = array[maxIndex];
+            array[maxIndex] = t;
             SiftDown(maxIndex);
         }
     }
@@ -81,8 +81,8 @@ struct MaxHeap
     int ExtractMax()
     {
         int result = array[0];
-        int t = array[size];
-        array[size] = array[0];
+        int t = array[size - 1];
+//        array[size - 1] = array[0];
         array[0] = t;
         --size;
         SiftDown(0);
@@ -115,7 +115,7 @@ struct MaxHeap
 int main()
 {
     MaxHeap heap;
-    int size = 5;
+    int size = 4;
     int * array = new int[size];
     for (int i = 0; i < size; ++i)
     {
@@ -124,6 +124,7 @@ int main()
         array[i] = t;
     }
 
+    array = heap.sort(array, size);
 
     for (int i = 0; i < size; ++i)
     {
