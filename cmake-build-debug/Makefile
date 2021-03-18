@@ -142,6 +142,19 @@ SortedList/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedList.dir\build.make CMakeFiles/SortedList.dir/build
 .PHONY : SortedList/fast
 
+#=============================================================================
+# Target rules for targets named Heap
+
+# Build rule for target.
+Heap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Heap
+.PHONY : Heap
+
+# fast build rule for target.
+Heap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Heap.dir\build.make CMakeFiles/Heap.dir/build
+.PHONY : Heap/fast
+
 HomeWork_17.03/SortedList.obj: HomeWork_17.03/SortedList.cpp.obj
 
 .PHONY : HomeWork_17.03/SortedList.obj
@@ -169,6 +182,33 @@ HomeWork_17.03/SortedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedList.dir\build.make CMakeFiles/SortedList.dir/HomeWork_17.03/SortedList.cpp.s
 .PHONY : HomeWork_17.03/SortedList.cpp.s
 
+HomeWork_24.03/MaxHeap.obj: HomeWork_24.03/MaxHeap.cpp.obj
+
+.PHONY : HomeWork_24.03/MaxHeap.obj
+
+# target to build an object file
+HomeWork_24.03/MaxHeap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Heap.dir\build.make CMakeFiles/Heap.dir/HomeWork_24.03/MaxHeap.cpp.obj
+.PHONY : HomeWork_24.03/MaxHeap.cpp.obj
+
+HomeWork_24.03/MaxHeap.i: HomeWork_24.03/MaxHeap.cpp.i
+
+.PHONY : HomeWork_24.03/MaxHeap.i
+
+# target to preprocess a source file
+HomeWork_24.03/MaxHeap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Heap.dir\build.make CMakeFiles/Heap.dir/HomeWork_24.03/MaxHeap.cpp.i
+.PHONY : HomeWork_24.03/MaxHeap.cpp.i
+
+HomeWork_24.03/MaxHeap.s: HomeWork_24.03/MaxHeap.cpp.s
+
+.PHONY : HomeWork_24.03/MaxHeap.s
+
+# target to generate assembly for a file
+HomeWork_24.03/MaxHeap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Heap.dir\build.make CMakeFiles/Heap.dir/HomeWork_24.03/MaxHeap.cpp.s
+.PHONY : HomeWork_24.03/MaxHeap.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -177,10 +217,14 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Heap
 	@echo ... SortedList
 	@echo ... HomeWork_17.03/SortedList.obj
 	@echo ... HomeWork_17.03/SortedList.i
 	@echo ... HomeWork_17.03/SortedList.s
+	@echo ... HomeWork_24.03/MaxHeap.obj
+	@echo ... HomeWork_24.03/MaxHeap.i
+	@echo ... HomeWork_24.03/MaxHeap.s
 .PHONY : help
 
 
