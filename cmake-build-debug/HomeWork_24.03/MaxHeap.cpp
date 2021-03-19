@@ -115,15 +115,6 @@ struct MaxHeap
 int main()
 {
 
-//    heap.Insert(9);
-//    heap.Insert(1);
-//    heap.Insert(2);
-//    heap.Insert(8);
-//    heap.Insert(10);
-//    for (int i = 0; i < heap.size + 4; ++i) {
-//        cout << heap.ExtractMax();
-//    }
-// bruh
 
     cout << "'Heap of fucking shit' - Program" << endl;
 
