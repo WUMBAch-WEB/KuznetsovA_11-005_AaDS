@@ -32,7 +32,7 @@ struct MaxHeap
 
     void SiftUp(int i)
     {
-        while (i > 1 && array[i] > array[Parent(i)])
+        while (i > 0 && array[i] > array[Parent(i)])
         {
             int  t = array[i];
             array[i] = array[Parent(i)];
@@ -44,11 +44,11 @@ struct MaxHeap
     void SiftDown(int i)
     {
         int maxIndex = i;
-        if (array[LeftChild(i)] > array[i] &&  LeftChild(i) < size)
+        if (array[LeftChild(i)] > array[i] &&  LeftChild(i) < size && array[LeftChild(i)] > array[RightChild(i)])
         {
             maxIndex = LeftChild(i);
         }
-        if (array[RightChild(i)] > array[i] && RightChild(i) < size)
+        if (array[RightChild(i)] > array[i] && RightChild(i) < size && array[LeftChild(i)] < array[RightChild(i)])
         {
             maxIndex = RightChild(i);
         }
@@ -82,7 +82,7 @@ struct MaxHeap
     {
         int result = array[0];
         int t = array[size - 1];
-//        array[size - 1] = array[0];
+        array[size - 1] = array[0];
         array[0] = t;
         --size;
         SiftDown(0);
@@ -114,16 +114,33 @@ struct MaxHeap
 
 int main()
 {
+
+//    heap.Insert(9);
+//    heap.Insert(1);
+//    heap.Insert(2);
+//    heap.Insert(8);
+//    heap.Insert(10);
+//    for (int i = 0; i < heap.size + 4; ++i) {
+//        cout << heap.ExtractMax();
+//    }
+
+    cout << "'Heap of fucking shit' - Program" << endl;
+
     MaxHeap heap;
-    int size = 4;
+    cout << "Enter the size of array: " << endl;
+    int size;
+    cin >> size;
     int * array = new int[size];
+
+    cout << "Enter the array: " << endl;
+
     for (int i = 0; i < size; ++i)
     {
         int t;
         cin >> t;
         array[i] = t;
     }
-
+    cout << "Let ask the 'Heap of fucking shit' to sort our array: " << endl;
     array = heap.sort(array, size);
 
     for (int i = 0; i < size; ++i)
