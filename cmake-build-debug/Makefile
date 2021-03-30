@@ -155,6 +155,46 @@ Heap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Heap.dir\build.make CMakeFiles/Heap.dir/build
 .PHONY : Heap/fast
 
+#=============================================================================
+# Target rules for targets named RangeTree
+
+# Build rule for target.
+RangeTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RangeTree
+.PHONY : RangeTree
+
+# fast build rule for target.
+RangeTree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeTree.dir\build.make CMakeFiles/RangeTree.dir/build
+.PHONY : RangeTree/fast
+
+FirstSemesterWork/RangeTree.obj: FirstSemesterWork/RangeTree.cpp.obj
+
+.PHONY : FirstSemesterWork/RangeTree.obj
+
+# target to build an object file
+FirstSemesterWork/RangeTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeTree.dir\build.make CMakeFiles/RangeTree.dir/FirstSemesterWork/RangeTree.cpp.obj
+.PHONY : FirstSemesterWork/RangeTree.cpp.obj
+
+FirstSemesterWork/RangeTree.i: FirstSemesterWork/RangeTree.cpp.i
+
+.PHONY : FirstSemesterWork/RangeTree.i
+
+# target to preprocess a source file
+FirstSemesterWork/RangeTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeTree.dir\build.make CMakeFiles/RangeTree.dir/FirstSemesterWork/RangeTree.cpp.i
+.PHONY : FirstSemesterWork/RangeTree.cpp.i
+
+FirstSemesterWork/RangeTree.s: FirstSemesterWork/RangeTree.cpp.s
+
+.PHONY : FirstSemesterWork/RangeTree.s
+
+# target to generate assembly for a file
+FirstSemesterWork/RangeTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeTree.dir\build.make CMakeFiles/RangeTree.dir/FirstSemesterWork/RangeTree.cpp.s
+.PHONY : FirstSemesterWork/RangeTree.cpp.s
+
 HomeWork_17.03/SortedList.obj: HomeWork_17.03/SortedList.cpp.obj
 
 .PHONY : HomeWork_17.03/SortedList.obj
@@ -218,7 +258,11 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Heap
+	@echo ... RangeTree
 	@echo ... SortedList
+	@echo ... FirstSemesterWork/RangeTree.obj
+	@echo ... FirstSemesterWork/RangeTree.i
+	@echo ... FirstSemesterWork/RangeTree.s
 	@echo ... HomeWork_17.03/SortedList.obj
 	@echo ... HomeWork_17.03/SortedList.i
 	@echo ... HomeWork_17.03/SortedList.s

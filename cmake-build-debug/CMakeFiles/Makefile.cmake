@@ -55,4 +55,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/SortedList.dir/DependInfo.cmake"
   "CMakeFiles/Heap.dir/DependInfo.cmake"
+  "CMakeFiles/RangeTree.dir/DependInfo.cmake"
   )

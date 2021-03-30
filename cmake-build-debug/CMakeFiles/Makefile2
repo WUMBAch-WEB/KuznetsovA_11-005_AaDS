@@ -74,6 +74,7 @@ CMAKE_BINARY_DIR = C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/SortedList.dir/all
 all: CMakeFiles/Heap.dir/all
+all: CMakeFiles/RangeTree.dir/all
 
 .PHONY : all
 
@@ -85,6 +86,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/SortedList.dir/clean
 clean: CMakeFiles/Heap.dir/clean
+clean: CMakeFiles/RangeTree.dir/clean
 
 .PHONY : clean
 
@@ -95,7 +97,7 @@ clean: CMakeFiles/Heap.dir/clean
 CMakeFiles/SortedList.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedList.dir\build.make CMakeFiles/SortedList.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedList.dir\build.make CMakeFiles/SortedList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target SortedList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target SortedList"
 .PHONY : CMakeFiles/SortedList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -141,6 +143,33 @@ Heap: CMakeFiles/Heap.dir/rule
 CMakeFiles/Heap.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Heap.dir\build.make CMakeFiles/Heap.dir/clean
 .PHONY : CMakeFiles/Heap.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/RangeTree.dir
+
+# All Build rule for target.
+CMakeFiles/RangeTree.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeTree.dir\build.make CMakeFiles/RangeTree.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeTree.dir\build.make CMakeFiles/RangeTree.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target RangeTree"
+.PHONY : CMakeFiles/RangeTree.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/RangeTree.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/RangeTree.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\WUMBAch\CLionProjects\untitled\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/RangeTree.dir/rule
+
+# Convenience name for target.
+RangeTree: CMakeFiles/RangeTree.dir/rule
+
+.PHONY : RangeTree
+
+# clean rule for target.
+CMakeFiles/RangeTree.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeTree.dir\build.make CMakeFiles/RangeTree.dir/clean
+.PHONY : CMakeFiles/RangeTree.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
