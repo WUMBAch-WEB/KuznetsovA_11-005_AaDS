@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/FirstSemesterWork/RangeTree.cpp" "C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/CMakeFiles/RangeTree.dir/FirstSemesterWork/RangeTree.cpp.obj"
+  "C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/FirstSemesterWork/RangeTree.cpp" "C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/CMakeFiles/RangeTree.dir/FirstSemesterWork/RangeTree.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

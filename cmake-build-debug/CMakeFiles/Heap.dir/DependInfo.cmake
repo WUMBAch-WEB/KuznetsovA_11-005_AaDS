@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/HomeWork_24.03/MaxHeap.cpp" "C:/Users/WUMBAch/CLionProjects/untitled/cmake-build-debug/CMakeFiles/Heap.dir/HomeWork_24.03/MaxHeap.cpp.obj"
+  "C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/HomeWork_24.03/MaxHeap.cpp" "C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/CMakeFiles/Heap.dir/HomeWork_24.03/MaxHeap.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
