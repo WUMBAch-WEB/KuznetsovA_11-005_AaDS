@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/HomeWork_21.04/SecondTask.cpp
+iostream
+-
+vector
+-
+
