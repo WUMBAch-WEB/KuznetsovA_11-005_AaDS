@@ -7,7 +7,7 @@
 #include <vector>
 using namespace std;
 
-vector<int> ParseToInt(vector<string> arrayNum)
+vector<int> ParseToInt(vector<string>& arrayNum)
 {
     vector<int> resultArray;
     for (int i = 0; i < arrayNum.size(); ++i) {
@@ -16,11 +16,12 @@ vector<int> ParseToInt(vector<string> arrayNum)
     return resultArray;
 }
 
-void TaskMethod(string element, string str, string newNum, vector<string> arrayNum)
+void TaskMethod(string element, string str, string newNum, vector<string>& arrayNum)
 {
     if (newNum.length() == element.length())
     {
         arrayNum.push_back(newNum);
+
     }
     for (int i = 0; i < element.length(); ++i)
     {
@@ -33,7 +34,6 @@ void TaskMethod(string element, string str, string newNum, vector<string> arrayN
 
 int main()
 {
-    setlocale(LC_ALL, "rus");
     string A;
     string B;
     int C;
@@ -48,7 +48,7 @@ int main()
     TaskMethod(A,"","", arrayNumForA);
     vector<int> resultArrayForA = ParseToInt(arrayNumForA);
     vector<string> arrayNumForB;
-    TaskMethod(A,"","", arrayNumForB);
+    TaskMethod(B,"","", arrayNumForB);
     vector<int> resultArrayForB = ParseToInt(arrayNumForB);
     bool flag = false;
     for (int i : resultArrayForA)
