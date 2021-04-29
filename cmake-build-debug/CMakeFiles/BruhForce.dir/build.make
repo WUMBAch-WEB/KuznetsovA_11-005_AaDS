@@ -75,27 +75,27 @@ include CMakeFiles/BruhForce.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BruhForce.dir/flags.make
 
-CMakeFiles/BruhForce.dir/HomeWork_28.04/ThirdTask.cpp.obj: CMakeFiles/BruhForce.dir/flags.make
-CMakeFiles/BruhForce.dir/HomeWork_28.04/ThirdTask.cpp.obj: HomeWork_28.04/ThirdTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BruhForce.dir/HomeWork_28.04/ThirdTask.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BruhForce.dir\HomeWork_28.04\ThirdTask.cpp.obj -c C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\HomeWork_28.04\ThirdTask.cpp
+CMakeFiles/BruhForce.dir/HomeWork_28.04/FirstTask.cpp.obj: CMakeFiles/BruhForce.dir/flags.make
+CMakeFiles/BruhForce.dir/HomeWork_28.04/FirstTask.cpp.obj: HomeWork_28.04/FirstTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BruhForce.dir/HomeWork_28.04/FirstTask.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BruhForce.dir\HomeWork_28.04\FirstTask.cpp.obj -c C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\HomeWork_28.04\FirstTask.cpp
 
-CMakeFiles/BruhForce.dir/HomeWork_28.04/ThirdTask.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BruhForce.dir/HomeWork_28.04/ThirdTask.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\HomeWork_28.04\ThirdTask.cpp > CMakeFiles\BruhForce.dir\HomeWork_28.04\ThirdTask.cpp.i
+CMakeFiles/BruhForce.dir/HomeWork_28.04/FirstTask.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BruhForce.dir/HomeWork_28.04/FirstTask.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\HomeWork_28.04\FirstTask.cpp > CMakeFiles\BruhForce.dir\HomeWork_28.04\FirstTask.cpp.i
 
-CMakeFiles/BruhForce.dir/HomeWork_28.04/ThirdTask.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BruhForce.dir/HomeWork_28.04/ThirdTask.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\HomeWork_28.04\ThirdTask.cpp -o CMakeFiles\BruhForce.dir\HomeWork_28.04\ThirdTask.cpp.s
+CMakeFiles/BruhForce.dir/HomeWork_28.04/FirstTask.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BruhForce.dir/HomeWork_28.04/FirstTask.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\HomeWork_28.04\FirstTask.cpp -o CMakeFiles\BruhForce.dir\HomeWork_28.04\FirstTask.cpp.s
 
 # Object files for target BruhForce
 BruhForce_OBJECTS = \
-"CMakeFiles/BruhForce.dir/HomeWork_28.04/ThirdTask.cpp.obj"
+"CMakeFiles/BruhForce.dir/HomeWork_28.04/FirstTask.cpp.obj"
 
 # External object files for target BruhForce
 BruhForce_EXTERNAL_OBJECTS =
 
-BruhForce.exe: CMakeFiles/BruhForce.dir/HomeWork_28.04/ThirdTask.cpp.obj
+BruhForce.exe: CMakeFiles/BruhForce.dir/HomeWork_28.04/FirstTask.cpp.obj
 BruhForce.exe: CMakeFiles/BruhForce.dir/build.make
 BruhForce.exe: CMakeFiles/BruhForce.dir/linklibs.rsp
 BruhForce.exe: CMakeFiles/BruhForce.dir/objects1.rsp

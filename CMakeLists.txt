@@ -11,4 +11,4 @@ add_executable(RangeTree cmake-build-debug/FirstSemesterWork/RangeTree.cpp)
 
 add_executable(UseBinarySearch cmake-build-debug/HomeWork_21.04/SecondTask.cpp)
 
-add_executable(BruhForce cmake-build-debug/HomeWork_28.04/ThirdTask.cpp)
+add_executable(BruhForce cmake-build-debug/HomeWork_28.04/FirstTask.cpp)

@@ -301,32 +301,32 @@ HomeWork_24.03/MaxHeap.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Heap.dir\build.make CMakeFiles/Heap.dir/HomeWork_24.03/MaxHeap.cpp.s
 .PHONY : HomeWork_24.03/MaxHeap.cpp.s
 
-HomeWork_28.04/ThirdTask.obj: HomeWork_28.04/ThirdTask.cpp.obj
+HomeWork_28.04/FirstTask.obj: HomeWork_28.04/FirstTask.cpp.obj
 
-.PHONY : HomeWork_28.04/ThirdTask.obj
+.PHONY : HomeWork_28.04/FirstTask.obj
 
 # target to build an object file
-HomeWork_28.04/ThirdTask.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BruhForce.dir\build.make CMakeFiles/BruhForce.dir/HomeWork_28.04/ThirdTask.cpp.obj
-.PHONY : HomeWork_28.04/ThirdTask.cpp.obj
+HomeWork_28.04/FirstTask.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BruhForce.dir\build.make CMakeFiles/BruhForce.dir/HomeWork_28.04/FirstTask.cpp.obj
+.PHONY : HomeWork_28.04/FirstTask.cpp.obj
 
-HomeWork_28.04/ThirdTask.i: HomeWork_28.04/ThirdTask.cpp.i
+HomeWork_28.04/FirstTask.i: HomeWork_28.04/FirstTask.cpp.i
 
-.PHONY : HomeWork_28.04/ThirdTask.i
+.PHONY : HomeWork_28.04/FirstTask.i
 
 # target to preprocess a source file
-HomeWork_28.04/ThirdTask.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BruhForce.dir\build.make CMakeFiles/BruhForce.dir/HomeWork_28.04/ThirdTask.cpp.i
-.PHONY : HomeWork_28.04/ThirdTask.cpp.i
+HomeWork_28.04/FirstTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BruhForce.dir\build.make CMakeFiles/BruhForce.dir/HomeWork_28.04/FirstTask.cpp.i
+.PHONY : HomeWork_28.04/FirstTask.cpp.i
 
-HomeWork_28.04/ThirdTask.s: HomeWork_28.04/ThirdTask.cpp.s
+HomeWork_28.04/FirstTask.s: HomeWork_28.04/FirstTask.cpp.s
 
-.PHONY : HomeWork_28.04/ThirdTask.s
+.PHONY : HomeWork_28.04/FirstTask.s
 
 # target to generate assembly for a file
-HomeWork_28.04/ThirdTask.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BruhForce.dir\build.make CMakeFiles/BruhForce.dir/HomeWork_28.04/ThirdTask.cpp.s
-.PHONY : HomeWork_28.04/ThirdTask.cpp.s
+HomeWork_28.04/FirstTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BruhForce.dir\build.make CMakeFiles/BruhForce.dir/HomeWork_28.04/FirstTask.cpp.s
+.PHONY : HomeWork_28.04/FirstTask.cpp.s
 
 # Help Target
 help:
@@ -353,9 +353,9 @@ help:
 	@echo ... HomeWork_24.03/MaxHeap.obj
 	@echo ... HomeWork_24.03/MaxHeap.i
 	@echo ... HomeWork_24.03/MaxHeap.s
-	@echo ... HomeWork_28.04/ThirdTask.obj
-	@echo ... HomeWork_28.04/ThirdTask.i
-	@echo ... HomeWork_28.04/ThirdTask.s
+	@echo ... HomeWork_28.04/FirstTask.obj
+	@echo ... HomeWork_28.04/FirstTask.i
+	@echo ... HomeWork_28.04/FirstTask.s
 .PHONY : help
 
 

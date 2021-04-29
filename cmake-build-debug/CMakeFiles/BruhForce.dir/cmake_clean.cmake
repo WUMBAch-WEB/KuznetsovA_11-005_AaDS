@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "BruhForce.exe"
   "BruhForce.exe.manifest"
   "BruhForce.pdb"
-  "CMakeFiles/BruhForce.dir/HomeWork_28.04/ThirdTask.cpp.obj"
+  "CMakeFiles/BruhForce.dir/HomeWork_28.04/FirstTask.cpp.obj"
   "libBruhForce.dll.a"
 )
 

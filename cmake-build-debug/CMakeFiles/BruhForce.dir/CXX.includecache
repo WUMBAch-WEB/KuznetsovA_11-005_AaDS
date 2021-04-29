@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/HomeWork_28.04/ThirdTask.cpp
+C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/HomeWork_28.04/FirstTask.cpp
 iostream
+-
+string
+-
+vector
 -
 
