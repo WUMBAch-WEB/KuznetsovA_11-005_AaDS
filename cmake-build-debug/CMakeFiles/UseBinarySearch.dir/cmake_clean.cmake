@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/SecondTask.cpp.obj"
+  "CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/FourthTask.cpp.obj"
   "UseBinarySearch.exe"
   "UseBinarySearch.exe.manifest"
   "UseBinarySearch.pdb"

@@ -66,6 +66,5 @@ int main()
     {
         cout << "Task is impossible";
     }
-
     return 0;
 }

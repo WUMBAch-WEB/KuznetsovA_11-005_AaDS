@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/HomeWork_21.04/SecondTask.cpp" "C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/SecondTask.cpp.obj"
+  "C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/HomeWork_21.04/FourthTask.cpp" "C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/FourthTask.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

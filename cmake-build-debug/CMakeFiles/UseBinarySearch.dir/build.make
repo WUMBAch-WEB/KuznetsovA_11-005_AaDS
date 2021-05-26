@@ -75,27 +75,27 @@ include CMakeFiles/UseBinarySearch.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/UseBinarySearch.dir/flags.make
 
-CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/SecondTask.cpp.obj: CMakeFiles/UseBinarySearch.dir/flags.make
-CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/SecondTask.cpp.obj: HomeWork_21.04/SecondTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/SecondTask.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\UseBinarySearch.dir\HomeWork_21.04\SecondTask.cpp.obj -c C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\HomeWork_21.04\SecondTask.cpp
+CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/FourthTask.cpp.obj: CMakeFiles/UseBinarySearch.dir/flags.make
+CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/FourthTask.cpp.obj: HomeWork_21.04/FourthTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/FourthTask.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\UseBinarySearch.dir\HomeWork_21.04\FourthTask.cpp.obj -c C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\HomeWork_21.04\FourthTask.cpp
 
-CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/SecondTask.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/SecondTask.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\HomeWork_21.04\SecondTask.cpp > CMakeFiles\UseBinarySearch.dir\HomeWork_21.04\SecondTask.cpp.i
+CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/FourthTask.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/FourthTask.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\HomeWork_21.04\FourthTask.cpp > CMakeFiles\UseBinarySearch.dir\HomeWork_21.04\FourthTask.cpp.i
 
-CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/SecondTask.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/SecondTask.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\HomeWork_21.04\SecondTask.cpp -o CMakeFiles\UseBinarySearch.dir\HomeWork_21.04\SecondTask.cpp.s
+CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/FourthTask.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/FourthTask.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\HomeWork_21.04\FourthTask.cpp -o CMakeFiles\UseBinarySearch.dir\HomeWork_21.04\FourthTask.cpp.s
 
 # Object files for target UseBinarySearch
 UseBinarySearch_OBJECTS = \
-"CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/SecondTask.cpp.obj"
+"CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/FourthTask.cpp.obj"
 
 # External object files for target UseBinarySearch
 UseBinarySearch_EXTERNAL_OBJECTS =
 
-UseBinarySearch.exe: CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/SecondTask.cpp.obj
+UseBinarySearch.exe: CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/FourthTask.cpp.obj
 UseBinarySearch.exe: CMakeFiles/UseBinarySearch.dir/build.make
 UseBinarySearch.exe: CMakeFiles/UseBinarySearch.dir/linklibs.rsp
 UseBinarySearch.exe: CMakeFiles/UseBinarySearch.dir/objects1.rsp

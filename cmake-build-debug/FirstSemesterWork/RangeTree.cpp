@@ -288,9 +288,14 @@ int main()
     {
         vector<int> arrayNum(size + 250 * i);
         vector<int> treeArray((size + 200 * i) * 4);
-        string path = "C:\\Users\\WUMBAch\\CLionProjects\\untitled\\cmake-build-debug\\FirstSemesterWork\\Tests\\" + to_string(i) + ".txt";
+        string path = "C:\\Users\\sascu\\CLionProjects\\KuznetsovA_11-005_AaDS\\cmake-build-debug\\FirstSemesterWork\\Tests\\" + to_string(i) + ".txt";
 
         arrayNum = Reading(arrayNum, size, path);
+
+//        for (int j = 0; j < arrayNum.size(); ++j)
+//        {
+//            cout << arrayNum[i];
+//        }
 
         testAllFunctions(arrayNum, treeArray, i);
 

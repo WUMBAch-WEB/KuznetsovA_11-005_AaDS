@@ -1,7 +1,8 @@
 C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/CMakeFiles/SortedList.dir
+C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/CMakeFiles/Sorting.dir
 C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/CMakeFiles/Heap.dir
 C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/CMakeFiles/RangeTree.dir
 C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/CMakeFiles/UseBinarySearch.dir
-C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/CMakeFiles/BruhForce.dir
+C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/CMakeFiles/Task.dir

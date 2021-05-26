@@ -55,17 +55,21 @@ void MainTaskMethod(vector<int> arrayNum, int element)
 int main()
 
 {
-    int n = 3;
-    int m = 3;
-    int matrix[n][m] = {
-            1, 3, 4,
-            6, 8, 10,
-            45, 67, 68
-    };
+    cout << "Enter size of array: ";
+    int size;
+    cin >> size;
+    vector<int> array;
+    cout << "Now enter elements of array: ";
+    for (int i = 0; i < size; ++i)
+    {
+        int element;
+        cin >> element;
+        array.push_back(element);
+    }
     cout << "Input element to find: ";
     int element;
     cin >> element;
 
-    MainTaskMethod(arrayNum, element);
+    MainTaskMethod(array, element);
 
 }

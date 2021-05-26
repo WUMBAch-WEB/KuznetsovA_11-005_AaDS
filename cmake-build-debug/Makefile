@@ -142,6 +142,19 @@ SortedList/fast:
 .PHONY : SortedList/fast
 
 #=============================================================================
+# Target rules for targets named Sorting
+
+# Build rule for target.
+Sorting: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Sorting
+.PHONY : Sorting
+
+# fast build rule for target.
+Sorting/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sorting.dir\build.make CMakeFiles/Sorting.dir/build
+.PHONY : Sorting/fast
+
+#=============================================================================
 # Target rules for targets named Heap
 
 # Build rule for target.
@@ -181,17 +194,17 @@ UseBinarySearch/fast:
 .PHONY : UseBinarySearch/fast
 
 #=============================================================================
-# Target rules for targets named BruhForce
+# Target rules for targets named Task
 
 # Build rule for target.
-BruhForce: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BruhForce
-.PHONY : BruhForce
+Task: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Task
+.PHONY : Task
 
 # fast build rule for target.
-BruhForce/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BruhForce.dir\build.make CMakeFiles/BruhForce.dir/build
-.PHONY : BruhForce/fast
+Task/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task.dir\build.make CMakeFiles/Task.dir/build
+.PHONY : Task/fast
 
 FirstSemesterWork/RangeTree.obj: FirstSemesterWork/RangeTree.cpp.obj
 
@@ -247,32 +260,32 @@ HomeWork_17.03/SortedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedList.dir\build.make CMakeFiles/SortedList.dir/HomeWork_17.03/SortedList.cpp.s
 .PHONY : HomeWork_17.03/SortedList.cpp.s
 
-HomeWork_21.04/SecondTask.obj: HomeWork_21.04/SecondTask.cpp.obj
+HomeWork_21.04/FourthTask.obj: HomeWork_21.04/FourthTask.cpp.obj
 
-.PHONY : HomeWork_21.04/SecondTask.obj
+.PHONY : HomeWork_21.04/FourthTask.obj
 
 # target to build an object file
-HomeWork_21.04/SecondTask.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UseBinarySearch.dir\build.make CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/SecondTask.cpp.obj
-.PHONY : HomeWork_21.04/SecondTask.cpp.obj
+HomeWork_21.04/FourthTask.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UseBinarySearch.dir\build.make CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/FourthTask.cpp.obj
+.PHONY : HomeWork_21.04/FourthTask.cpp.obj
 
-HomeWork_21.04/SecondTask.i: HomeWork_21.04/SecondTask.cpp.i
+HomeWork_21.04/FourthTask.i: HomeWork_21.04/FourthTask.cpp.i
 
-.PHONY : HomeWork_21.04/SecondTask.i
+.PHONY : HomeWork_21.04/FourthTask.i
 
 # target to preprocess a source file
-HomeWork_21.04/SecondTask.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UseBinarySearch.dir\build.make CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/SecondTask.cpp.i
-.PHONY : HomeWork_21.04/SecondTask.cpp.i
+HomeWork_21.04/FourthTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UseBinarySearch.dir\build.make CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/FourthTask.cpp.i
+.PHONY : HomeWork_21.04/FourthTask.cpp.i
 
-HomeWork_21.04/SecondTask.s: HomeWork_21.04/SecondTask.cpp.s
+HomeWork_21.04/FourthTask.s: HomeWork_21.04/FourthTask.cpp.s
 
-.PHONY : HomeWork_21.04/SecondTask.s
+.PHONY : HomeWork_21.04/FourthTask.s
 
 # target to generate assembly for a file
-HomeWork_21.04/SecondTask.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UseBinarySearch.dir\build.make CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/SecondTask.cpp.s
-.PHONY : HomeWork_21.04/SecondTask.cpp.s
+HomeWork_21.04/FourthTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UseBinarySearch.dir\build.make CMakeFiles/UseBinarySearch.dir/HomeWork_21.04/FourthTask.cpp.s
+.PHONY : HomeWork_21.04/FourthTask.cpp.s
 
 HomeWork_24.03/MaxHeap.obj: HomeWork_24.03/MaxHeap.cpp.obj
 
@@ -301,32 +314,59 @@ HomeWork_24.03/MaxHeap.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Heap.dir\build.make CMakeFiles/Heap.dir/HomeWork_24.03/MaxHeap.cpp.s
 .PHONY : HomeWork_24.03/MaxHeap.cpp.s
 
-HomeWork_28.04/FirstTask.obj: HomeWork_28.04/FirstTask.cpp.obj
+HomeWork_26.05/SecondTask.obj: HomeWork_26.05/SecondTask.cpp.obj
 
-.PHONY : HomeWork_28.04/FirstTask.obj
+.PHONY : HomeWork_26.05/SecondTask.obj
 
 # target to build an object file
-HomeWork_28.04/FirstTask.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BruhForce.dir\build.make CMakeFiles/BruhForce.dir/HomeWork_28.04/FirstTask.cpp.obj
-.PHONY : HomeWork_28.04/FirstTask.cpp.obj
+HomeWork_26.05/SecondTask.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task.dir\build.make CMakeFiles/Task.dir/HomeWork_26.05/SecondTask.cpp.obj
+.PHONY : HomeWork_26.05/SecondTask.cpp.obj
 
-HomeWork_28.04/FirstTask.i: HomeWork_28.04/FirstTask.cpp.i
+HomeWork_26.05/SecondTask.i: HomeWork_26.05/SecondTask.cpp.i
 
-.PHONY : HomeWork_28.04/FirstTask.i
+.PHONY : HomeWork_26.05/SecondTask.i
 
 # target to preprocess a source file
-HomeWork_28.04/FirstTask.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BruhForce.dir\build.make CMakeFiles/BruhForce.dir/HomeWork_28.04/FirstTask.cpp.i
-.PHONY : HomeWork_28.04/FirstTask.cpp.i
+HomeWork_26.05/SecondTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task.dir\build.make CMakeFiles/Task.dir/HomeWork_26.05/SecondTask.cpp.i
+.PHONY : HomeWork_26.05/SecondTask.cpp.i
 
-HomeWork_28.04/FirstTask.s: HomeWork_28.04/FirstTask.cpp.s
+HomeWork_26.05/SecondTask.s: HomeWork_26.05/SecondTask.cpp.s
 
-.PHONY : HomeWork_28.04/FirstTask.s
+.PHONY : HomeWork_26.05/SecondTask.s
 
 # target to generate assembly for a file
-HomeWork_28.04/FirstTask.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BruhForce.dir\build.make CMakeFiles/BruhForce.dir/HomeWork_28.04/FirstTask.cpp.s
-.PHONY : HomeWork_28.04/FirstTask.cpp.s
+HomeWork_26.05/SecondTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task.dir\build.make CMakeFiles/Task.dir/HomeWork_26.05/SecondTask.cpp.s
+.PHONY : HomeWork_26.05/SecondTask.cpp.s
+
+SecondSemesterWork/Main.obj: SecondSemesterWork/Main.cpp.obj
+
+.PHONY : SecondSemesterWork/Main.obj
+
+# target to build an object file
+SecondSemesterWork/Main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sorting.dir\build.make CMakeFiles/Sorting.dir/SecondSemesterWork/Main.cpp.obj
+.PHONY : SecondSemesterWork/Main.cpp.obj
+
+SecondSemesterWork/Main.i: SecondSemesterWork/Main.cpp.i
+
+.PHONY : SecondSemesterWork/Main.i
+
+# target to preprocess a source file
+SecondSemesterWork/Main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sorting.dir\build.make CMakeFiles/Sorting.dir/SecondSemesterWork/Main.cpp.i
+.PHONY : SecondSemesterWork/Main.cpp.i
+
+SecondSemesterWork/Main.s: SecondSemesterWork/Main.cpp.s
+
+.PHONY : SecondSemesterWork/Main.s
+
+# target to generate assembly for a file
+SecondSemesterWork/Main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sorting.dir\build.make CMakeFiles/Sorting.dir/SecondSemesterWork/Main.cpp.s
+.PHONY : SecondSemesterWork/Main.cpp.s
 
 # Help Target
 help:
@@ -336,10 +376,11 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... BruhForce
 	@echo ... Heap
 	@echo ... RangeTree
 	@echo ... SortedList
+	@echo ... Sorting
+	@echo ... Task
 	@echo ... UseBinarySearch
 	@echo ... FirstSemesterWork/RangeTree.obj
 	@echo ... FirstSemesterWork/RangeTree.i
@@ -347,15 +388,18 @@ help:
 	@echo ... HomeWork_17.03/SortedList.obj
 	@echo ... HomeWork_17.03/SortedList.i
 	@echo ... HomeWork_17.03/SortedList.s
-	@echo ... HomeWork_21.04/SecondTask.obj
-	@echo ... HomeWork_21.04/SecondTask.i
-	@echo ... HomeWork_21.04/SecondTask.s
+	@echo ... HomeWork_21.04/FourthTask.obj
+	@echo ... HomeWork_21.04/FourthTask.i
+	@echo ... HomeWork_21.04/FourthTask.s
 	@echo ... HomeWork_24.03/MaxHeap.obj
 	@echo ... HomeWork_24.03/MaxHeap.i
 	@echo ... HomeWork_24.03/MaxHeap.s
-	@echo ... HomeWork_28.04/FirstTask.obj
-	@echo ... HomeWork_28.04/FirstTask.i
-	@echo ... HomeWork_28.04/FirstTask.s
+	@echo ... HomeWork_26.05/SecondTask.obj
+	@echo ... HomeWork_26.05/SecondTask.i
+	@echo ... HomeWork_26.05/SecondTask.s
+	@echo ... SecondSemesterWork/Main.obj
+	@echo ... SecondSemesterWork/Main.i
+	@echo ... SecondSemesterWork/Main.s
 .PHONY : help
 
 

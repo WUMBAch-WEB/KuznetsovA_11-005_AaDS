@@ -69,6 +69,48 @@
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Sorting">
+				<Option output="C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Sorting.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sorting"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sorting/fast">
+				<Option output="C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Sorting.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sorting/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Heap">
 				<Option output="C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Heap.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug"/>
@@ -205,8 +247,8 @@
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="BruhForce">
-				<Option output="C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/BruhForce.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Task">
+				<Option output="C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Task.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -220,14 +262,14 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Makefile&quot;  VERBOSE=1 BruhForce"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task"/>
 					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="BruhForce/fast">
-				<Option output="C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/BruhForce.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Task/fast">
+				<Option output="C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Task.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -241,7 +283,7 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Makefile&quot;  VERBOSE=1 BruhForce/fast"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task/fast"/>
 					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -254,14 +296,17 @@
 		<Unit filename="C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/HomeWork_17.03/SortedList.cpp">
 			<Option target="SortedList"/>
 		</Unit>
-		<Unit filename="C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/HomeWork_21.04/SecondTask.cpp">
+		<Unit filename="C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/HomeWork_21.04/FourthTask.cpp">
 			<Option target="UseBinarySearch"/>
 		</Unit>
 		<Unit filename="C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/HomeWork_24.03/MaxHeap.cpp">
 			<Option target="Heap"/>
 		</Unit>
-		<Unit filename="C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/HomeWork_28.04/FirstTask.cpp">
-			<Option target="BruhForce"/>
+		<Unit filename="C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/HomeWork_26.05/SecondTask.cpp">
+			<Option target="Task"/>
+		</Unit>
+		<Unit filename="C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/cmake-build-debug/SecondSemesterWork/Main.cpp">
+			<Option target="Sorting"/>
 		</Unit>
 		<Unit filename="C:/Users/sascu/CLionProjects/KuznetsovA_11-005_AaDS/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

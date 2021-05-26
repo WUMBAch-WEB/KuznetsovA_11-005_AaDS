@@ -72,10 +72,11 @@ CMAKE_BINARY_DIR = C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-bui
 
 # The main recursive "all" target.
 all: CMakeFiles/SortedList.dir/all
+all: CMakeFiles/Sorting.dir/all
 all: CMakeFiles/Heap.dir/all
 all: CMakeFiles/RangeTree.dir/all
 all: CMakeFiles/UseBinarySearch.dir/all
-all: CMakeFiles/BruhForce.dir/all
+all: CMakeFiles/Task.dir/all
 
 .PHONY : all
 
@@ -86,10 +87,11 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/SortedList.dir/clean
+clean: CMakeFiles/Sorting.dir/clean
 clean: CMakeFiles/Heap.dir/clean
 clean: CMakeFiles/RangeTree.dir/clean
 clean: CMakeFiles/UseBinarySearch.dir/clean
-clean: CMakeFiles/BruhForce.dir/clean
+clean: CMakeFiles/Task.dir/clean
 
 .PHONY : clean
 
@@ -100,7 +102,7 @@ clean: CMakeFiles/BruhForce.dir/clean
 CMakeFiles/SortedList.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedList.dir\build.make CMakeFiles/SortedList.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortedList.dir\build.make CMakeFiles/SortedList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target SortedList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target SortedList"
 .PHONY : CMakeFiles/SortedList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -121,13 +123,40 @@ CMakeFiles/SortedList.dir/clean:
 .PHONY : CMakeFiles/SortedList.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Sorting.dir
+
+# All Build rule for target.
+CMakeFiles/Sorting.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sorting.dir\build.make CMakeFiles/Sorting.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sorting.dir\build.make CMakeFiles/Sorting.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Sorting"
+.PHONY : CMakeFiles/Sorting.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Sorting.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Sorting.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Sorting.dir/rule
+
+# Convenience name for target.
+Sorting: CMakeFiles/Sorting.dir/rule
+
+.PHONY : Sorting
+
+# clean rule for target.
+CMakeFiles/Sorting.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sorting.dir\build.make CMakeFiles/Sorting.dir/clean
+.PHONY : CMakeFiles/Sorting.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Heap.dir
 
 # All Build rule for target.
 CMakeFiles/Heap.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Heap.dir\build.make CMakeFiles/Heap.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Heap.dir\build.make CMakeFiles/Heap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Heap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Heap"
 .PHONY : CMakeFiles/Heap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -154,7 +183,7 @@ CMakeFiles/Heap.dir/clean:
 CMakeFiles/RangeTree.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeTree.dir\build.make CMakeFiles/RangeTree.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RangeTree.dir\build.make CMakeFiles/RangeTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target RangeTree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target RangeTree"
 .PHONY : CMakeFiles/RangeTree.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,7 +210,7 @@ CMakeFiles/RangeTree.dir/clean:
 CMakeFiles/UseBinarySearch.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UseBinarySearch.dir\build.make CMakeFiles/UseBinarySearch.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\UseBinarySearch.dir\build.make CMakeFiles/UseBinarySearch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target UseBinarySearch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target UseBinarySearch"
 .PHONY : CMakeFiles/UseBinarySearch.dir/all
 
 # Build rule for subdir invocation for target.
@@ -202,31 +231,31 @@ CMakeFiles/UseBinarySearch.dir/clean:
 .PHONY : CMakeFiles/UseBinarySearch.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/BruhForce.dir
+# Target rules for target CMakeFiles/Task.dir
 
 # All Build rule for target.
-CMakeFiles/BruhForce.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BruhForce.dir\build.make CMakeFiles/BruhForce.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BruhForce.dir\build.make CMakeFiles/BruhForce.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target BruhForce"
-.PHONY : CMakeFiles/BruhForce.dir/all
+CMakeFiles/Task.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task.dir\build.make CMakeFiles/Task.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task.dir\build.make CMakeFiles/Task.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Task"
+.PHONY : CMakeFiles/Task.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/BruhForce.dir/rule: cmake_check_build_system
+CMakeFiles/Task.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BruhForce.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Task.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\sascu\CLionProjects\KuznetsovA_11-005_AaDS\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/BruhForce.dir/rule
+.PHONY : CMakeFiles/Task.dir/rule
 
 # Convenience name for target.
-BruhForce: CMakeFiles/BruhForce.dir/rule
+Task: CMakeFiles/Task.dir/rule
 
-.PHONY : BruhForce
+.PHONY : Task
 
 # clean rule for target.
-CMakeFiles/BruhForce.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BruhForce.dir\build.make CMakeFiles/BruhForce.dir/clean
-.PHONY : CMakeFiles/BruhForce.dir/clean
+CMakeFiles/Task.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Task.dir\build.make CMakeFiles/Task.dir/clean
+.PHONY : CMakeFiles/Task.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
